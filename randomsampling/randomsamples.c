@@ -168,7 +168,7 @@ void openfiles(void) {
   char output_file1[300];
   char teste[250];
   sprintf(output_file1,"%.5f",DETA);
-  fp1 = fopen(output_file1,"w");
+  fp1 = fopen(output_file1,"a");
   fflush(fp1);
   return;
 }
